@@ -1,12 +1,12 @@
 import React from 'react'
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
-const page = () => {
+const About = () => {
     const t = useTranslations('About');
 
-  return (
-    <div>{t("title")}</div>
-  )
+    return (
+        <div>{t("title")}</div>
+    )
 }
 
-export default page
+export default About

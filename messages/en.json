@@ -1,8 +1,24 @@
 {
-    "Index": {
-      "title": "Hello world!"
-    },
-    "About": {
-        "title": "About"
-    }
+  "Index": {
+    "title": "Hello world!"
+  },
+  "About": {
+    "title": "About"
+  },
+  "Nav": {
+    "Home": "Home",
+    "Flights": "Flights",
+    "Planes": "Planes",
+    "GiftShop": "Gift Shop",
+    "News": "News",
+    "Blog": "Blog",
+    "AboutUs": "About Us",
+    "Contact": "Contact",
+    "DarkMode": "Dark mode",
+    "LightMode": "Light mode",
+    "ChangeLanguage": "(EN) Change language",
+    "Profile": "Profile",
+    "Settings": "Settings",
+    "LogOut": "Log out"
   }
+}

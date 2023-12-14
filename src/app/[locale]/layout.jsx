@@ -4,30 +4,31 @@ import { ThemeProvider } from '../context/ThemeContext'
 import ClientThemeWrapper from '../context/ClientThemeWrapper'
 import NavBar from '../components/NavBar'
 import { notFound } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 
 const locales = ['en', 'es'];
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-    title: 'Aviation',
-    description: 'luiseseberre',
+  title: 'Aviation',
+  description: 'luiseseberre',
 }
 
 export default function RootLayout({ children, params: { locale } }) {
-    if (!locales.includes(locale)) notFound()
-    const t = useTranslations('Index');
-    console.log(locale)
-    return (
-        <html lang={locale}>
-            <body className={inter.className}>
-                <ThemeProvider>
-                    <ClientThemeWrapper>
-                        <NavBar locale={locale} />
-                        {children}
-                    </ClientThemeWrapper>
-                </ThemeProvider>
-            </body>
-        </html>
-    )
+  if (!locales.includes(locale)) notFound()
+  const messages = useMessages();
+  return (
+    <html lang={locale}>
+      <body className={inter.className}>
+        <ThemeProvider>
+          <ClientThemeWrapper>
+            <NextIntlClientProvider locale={locale} messages={messages}>
+              <NavBar locale={locale} />
+              {children}
+            </NextIntlClientProvider>
+          </ClientThemeWrapper>
+        </ThemeProvider>
+      </body>
+    </html>
+  )
 }

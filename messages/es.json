@@ -1,8 +1,24 @@
 {
-    "Index": {
-      "title": "Hola mundo!"
-    },
-    "About": {
-        "title": "Sobre"
-    }
+  "Index": {
+    "title": "Hola mundo!"
+  },
+  "About": {
+    "title": "Sobre"
+  },
+  "Nav": {
+    "Home": "Inicio",
+    "Flights": "Vuelos",
+    "Planes": "Aviones",
+    "GiftShop": "Tienda de regalos",
+    "News": "Noticias",
+    "Blog": "Blog",
+    "AboutUs": "Sobre nosotros",
+    "Contact": "Contacto",
+    "DarkMode": "Modo oscuro",
+    "LightMode": "Modo claro",
+    "ChangeLanguage": "(ES) Cambiar idioma",
+    "Profile": "Perfil",
+    "Settings": "Ajustes",
+    "LogOut": "Cerrar sesión"
   }
+}

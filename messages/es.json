@@ -5,6 +5,21 @@
   "About": {
     "title": "Sobre"
   },
+  "Blog": {
+    "title": "Blog"
+  },
+  "Contact": {
+    "title": "Contacto"
+  },
+  "Flights": {
+    "title": "Vuelos"
+  },
+  "News": {
+    "title": "Noticias"
+  },
+  "Shop": {
+    "title": "Tienda"
+  },
   "Nav": {
     "Home": "Inicio",
     "Flights": "Vuelos",

@@ -6,6 +6,10 @@ import NavBar from '../components/NavBar'
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+
 const locales = ['en', 'es'];
 const inter = Inter({ subsets: ['latin'] })
 

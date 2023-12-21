@@ -9,7 +9,13 @@
     "title": "Blog"
   },
   "Contact": {
-    "title": "Contact"
+    "title": "Contact",
+    "Send": "Send",
+    "GetInTouch": "Get in touch with us",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "Email": "Email",
+    "Message": "Message"
   },
   "Flights": {
     "title": "Flights"

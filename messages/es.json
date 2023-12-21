@@ -9,7 +9,13 @@
     "title": "Blog"
   },
   "Contact": {
-    "title": "Contacto"
+    "title": "Contacto",
+    "Send": "Enviar",
+    "GetInTouch": "Ponte en contacto con nosotros",
+    "FirstName": "Nombre(s)",
+    "LastName": "Apellido(s)",
+    "Email": "Correo electrónico",
+    "Message": "Mensaje"
   },
   "Flights": {
     "title": "Vuelos"

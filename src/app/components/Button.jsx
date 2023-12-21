@@ -4,7 +4,7 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons";
 
 const Button = ({ text }) => {
   return (
-    <button className="btn btn-outline">
+    <button className="w-30 btn btn-outline">
       <span>{text}</span>
       <FontAwesomeIcon icon={faPlane} className="-rotate-12" />
     </button>
